@@ -3,11 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    font-family: Merriweather;
 }
 
 body{
     background-color: #000000;
-    font-family: 'Times New Roman', serif;
+    font-family: Merriweather;
     font-size: 1.1rem;
 }
 .div{
@@ -45,6 +46,21 @@ body{
   margin-top: 0.5em;
   border-top: 2px solid #000;
 }
+button {
+  border: 2px solid #000;
+  height: 60px;
+  font-size: large;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: bisque;
+}
+
+.built{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
 
 @media screen and (min-width: 992px) {
 
@@ -52,4 +68,5 @@ body{
 width: 100%;
 }
 }
+
 
